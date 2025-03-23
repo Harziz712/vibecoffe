@@ -1,6 +1,8 @@
+import Home from "./components/ui/home"
+
 const App = () => {
   return (
-    <div>App</div>
+    <div><Home/></div>
   )
 }
 
