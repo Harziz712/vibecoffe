@@ -1,14 +1,14 @@
 import { Button } from './ui/button'
 import { Menu,  } from 'lucide-react'
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet'
-import { NavLinks } from './ui/ui'
+import { Logo, NavLinks } from './ui/ui'
 
 
 const Navbar = () => {
   return (
     <div className="w-full fixed  top-0 left-0 z-50  backdrop-blur-md shadow-md">
       <div className="flex justify-between items-center py-4 px-14 ">
-<h2 className='md:w-[30%]'>LOGO.</h2>
+<Logo/>
 {/* Desktop */}
         <div className="hidden md:flex justify-between items-center gap-20 md:w-[50%]">
           <NavLinks />
@@ -17,13 +17,13 @@ const Navbar = () => {
 {/* Mobile */}
         <div className="md:hidden z-100 relative text-accent ">
           <Sheet >
-            <SheetTrigger >
+            <SheetTrigger >v
               <Menu className="w-8 h-8 " />
               
             </SheetTrigger>
             <SheetContent side="left">
               <div className="flex flex-col items-left">
-              <h2 className='md:w-[30%] m-10'>LOGO.</h2>
+            <div className='m-10'><Logo/></div>
               <div className="flex flex-col items-center gap-4 mt-6 px-10">
                 <NavLinks />
                 <Button className="w-full py-3 rounded">Order now !</Button>

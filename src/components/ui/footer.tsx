@@ -1,11 +1,12 @@
 import { LuFacebook, LuInstagram, LuPhone } from "react-icons/lu"
+import { Logo } from "./ui"
 
 
 const Footer = () => {
   return (
     <div className='md:h-[350px] bg-accent p-2 md:px-10 space-y-10 flex flex-col justify-end   '>
         <div className="flex justify-around items-start text-sm md:text-md">
-            <div><h2 className='md:w-[30%]'>LOGO.</h2></div>
+            <div><Logo/></div>
             <div className="space-y-3">
                 <h4 className="text-chart-1 font-bold">Service</h4>
                 <div className="text-chart-4 space-y-2">

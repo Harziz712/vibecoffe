@@ -87,3 +87,10 @@ export const ServiceDetail = () => {
       
     )
 }
+
+export const Logo = () => {
+    return (
+        // <h2 className='md:w-[30%]'>LOGO.</h2>
+        <img src=" " alt="LOGO."/>
+    )
+}
