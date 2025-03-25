@@ -17,7 +17,7 @@ const Navbar = () => {
 {/* Mobile */}
         <div className="md:hidden z-100 relative text-accent ">
           <Sheet >
-            <SheetTrigger >v
+            <SheetTrigger >
               <Menu className="w-8 h-8 " />
               
             </SheetTrigger>

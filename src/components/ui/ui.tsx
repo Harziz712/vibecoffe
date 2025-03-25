@@ -53,7 +53,7 @@ export const HomeDetail = () =>{
 
 export const AboutDetail = () =>{
     return (
-        <div className="text-muted-foreground text-left space-y-5 px-20">
+        <div className="text-muted-foreground text-left space-y-5 px-4 md:px-20">
             <p className="text-primary">About us</p>
             <h2 className="text-[70px] leading-18 font-bold text-accent-foreground">
                 About Cafee
@@ -78,9 +78,9 @@ export const ServiceDetail = () => {
     return(
      <>
            {services.map(({icon, title, description}) => (
-            <div className="grid justify-center items-center text-left space-y-2.5 px-10  mb-8
+            <div className="flex-col justify-center items-center md:text-left space-y-2.5 md:px-10 mb-8
             ">
-          <div className=" justify-left items-left flex p-5"> {icon}</div>
+          <div className=" justify-center md:justify-left  flex p-5"> {icon}</div>
             <h4 className="text-md uppercase font-bold">{title}</h4>
             <p className="text-chart-2 text-sm">{description} </p>
             </div>
