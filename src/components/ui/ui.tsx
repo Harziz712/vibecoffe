@@ -38,9 +38,9 @@ export const NavLinks = () => {
 
 export const HomeDetail = () =>{
     return (
-        <div className="text-muted-foreground text-left space-y-5 h-[100%]">
+        <div className="text-muted-foreground text-center md:text-left space-y-5 h-[100%]">
             <p>CAFEE</p>
-            <h2 className="text-[70px] leading-18 font-bold ">
+            <h2 className="text-5xl md:text-[70px] md:leading-18 font-bold ">
                 Homemade Coffee with Amazing Vibes
             </h2>
             <p className="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni corporis quae, at fuga doloribus dolores a blanditiis quasi est, architecto repellendus incidunt nihil, nam rem amet? Nam atque dolorum fugiat.</p>
@@ -65,9 +65,9 @@ export const AboutDetail = () =>{
 
 export const ImageStack = () =>{
     return (
-        <div className=" text-muted-foreground -right-40 md:-right-0 space-y-5 px-20 relative">
+        <div className=" text-muted-foreground -right-20  md:-right-0 space-y-5 px-20 relative">
           <img src={images.coffebar1} className="h-[200px] w-[200px] rounded-2xl `backdrop-blur-md shadow-md shadow-accent z-10 absolute -top-50 -left-22 object-cover"/>
-          <img src={images.coffee}  className="h-[300px] object-cover w-[300px] rounded-2xl `backdrop-blur-md shadow-md shadow-accent absolute -top-10"/>
+          <img src={images.coffee}  className="md:h-[300px] h-[250px] object-cover md:w-[300px] w-[250px] rounded-2xl `backdrop-blur-md shadow-md shadow-accent absolute -top-10"/>
         </div>
     )
 }

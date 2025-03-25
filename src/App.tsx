@@ -7,7 +7,7 @@ import Home from "./components/ui/home"
 
 const App = () => {
   return (
-    <div className="w-full h-[100%] p-0 m-0 bg-chart-2">
+    <div className="w-full h-[100%] p-0 m-0 bg-chart-2 overflow-hidden">
     <div className="rounded-b-4xl bg-secondary-foreground">
     <Navbar/>
       <Home/>
