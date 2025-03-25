@@ -28,7 +28,9 @@ export const NavLinks = () => {
                     }} */}
 
     {links.map((link)=> (
-        <a href={`${link.href}`}>{link.name}</a>
+        <a href={`${link.href}`} className="relative before:absolute before:-bottom-2 before:left-0 before:w-[100%] before:h-1 
+        before:rounded-[5px] before:bg-accent before:scale-x-0 before:transform-origin-bottom-right before:transition-transform before:ease-in-out
+        hover:before:scale-[1] hover:before:transform-origin-bottom-left   ">{link.name}</a>
     ))  }
     
 
