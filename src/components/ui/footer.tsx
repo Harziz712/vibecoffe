@@ -3,8 +3,8 @@ import { LuFacebook, LuInstagram, LuPhone } from "react-icons/lu"
 
 const Footer = () => {
   return (
-    <div className='h-[350px] bg-accent px-10 space-y-10 flex flex-col justify-end  '>
-        <div className="flex justify-around items-start">
+    <div className='md:h-[350px] bg-accent p-2 md:px-10 space-y-10 flex flex-col justify-end   '>
+        <div className="flex justify-around items-start text-sm md:text-md">
             <div><h2 className='md:w-[30%]'>LOGO.</h2></div>
             <div className="space-y-3">
                 <h4 className="text-chart-1 font-bold">Service</h4>
@@ -31,7 +31,7 @@ const Footer = () => {
                 </div></div>
             </div>
         </div>
-        <div className="flex justify-between items-center px-10 py-5 text-chart-4">
+        <div className="flex justify-between items-center md:px-10 py-5 text-chart-4  text-sm md:text-md">
            <p> &copy; 2025 HarzizDesigns. All rights reserved.</p>
            <p>Terms & conditions Apply</p>
         </div>
