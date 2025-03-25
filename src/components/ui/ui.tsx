@@ -1,5 +1,5 @@
 import { images } from "../../assets/images"
-import { services } from "../../lib/data"
+import { links, services } from "../../lib/data"
 import { Button } from "./button"
 import { LuArrowRight } from "react-icons/lu"
 
@@ -27,9 +27,10 @@ export const NavLinks = () => {
                       },
                     }} */}
 
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#service">Service</a>
+    {links.map((link)=> (
+        <a href={`${link.href}`}>{link.name}</a>
+    ))  }
+    
 
     </div>
   )

@@ -10,3 +10,10 @@ export const services  = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora facere quod, necessitatibus aliquid voluptatem asperiores repudiandae exercitationem provident at laboriosam ",
      }
 ]
+
+export const links = [
+   { name: "Home", href: "#home" },
+   { name: "About", href: "#about" },
+   { name: "Services", href: "#services" },
+
+ ];
