@@ -1,3 +1,4 @@
+import { images } from "../../assets/images"
 import { services } from "../../lib/data"
 import { Button } from "./button"
 import { LuArrowRight } from "react-icons/lu"
@@ -5,6 +6,27 @@ import { LuArrowRight } from "react-icons/lu"
 export const NavLinks = () => {
   return (
     <div  className="sm: grid md:flex justify-between items-center p-4 gap-12 ">
+                 {/* position="relative"
+                    _before={{
+                      content: '""',
+                      position: "absolute",
+                      bottom: 0,
+                      left: 0,
+                      width: "100%",
+                      height: "3px",
+                      borderRadius: "5px",
+                      bg: "primary.500", // Customize the color
+                      transform: "scaleX(0)",
+                      transformOrigin: "bottom right",
+                      transition: "transform 0.3s ease-in-out",
+                    }}
+                    _hover={{
+                      _before: {
+                        transform: "scaleX(1)",
+                        transformOrigin: "bottom left",
+                      },
+                    }} */}
+
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#service">Service</a>
@@ -43,8 +65,8 @@ export const AboutDetail = () =>{
 export const ImageStack = () =>{
     return (
         <div className=" text-muted-foreground -right-40 md:-right-0 space-y-5 px-20 relative">
-          <img src="" className="h-[200px] w-[200px] rounded-2xl border-2 border-amber-400 absolute -top-50 -left-22"/>
-          <img className="h-[300px] w-[300px] rounded-2xl border-2 border-amber-400 absolute -top-10"/>
+          <img src={images.coffebar1} className="h-[200px] w-[200px] rounded-2xl `backdrop-blur-md shadow-md shadow-accent z-10 absolute -top-50 -left-22 object-cover"/>
+          <img src={images.coffee}  className="h-[300px] object-cover w-[300px] rounded-2xl `backdrop-blur-md shadow-md shadow-accent absolute -top-10"/>
         </div>
     )
 }

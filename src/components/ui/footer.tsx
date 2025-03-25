@@ -3,7 +3,7 @@ import { LuFacebook, LuInstagram, LuPhone } from "react-icons/lu"
 
 const Footer = () => {
   return (
-    <div className='h-[350px] bg-chart-2 px-10 space-y-10 flex flex-col justify-end  '>
+    <div className='h-[350px] bg-accent px-10 space-y-10 flex flex-col justify-end  '>
         <div className="flex justify-around items-start">
             <div><h2 className='md:w-[30%]'>LOGO.</h2></div>
             <div className="space-y-3">

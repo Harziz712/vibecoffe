@@ -1,11 +1,12 @@
 import { LuDownload } from "react-icons/lu"
 import { Button } from "./ui/button"
+import { images } from "../assets/images"
 
 
 const Download = () => {
   return (
    <div className="p-10 py-20 my-20">
-     <div className="h-[400px] w-full bg-chart-3 rounded-4xl flex items-center justify-center">
+     <div className="h-[400px] w-full bg-chart-3 rounded-4xl flex items-center justify-center " style={{backgroundImage: `url(${images.coffeback})`, backgroundRepeat:"no-repeat" , backgroundPosition: "center", backgroundSize: "cover"}}>
         <div className="justify-center text-center space-y-10">
         <p className="text-chart-1" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni corporis quae, at fuga doloribus .</p>
             <h2 className="text-[70px] leading-18 font-bold text-secondary-foreground">
