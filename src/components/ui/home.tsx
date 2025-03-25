@@ -5,11 +5,11 @@ const Home = () => {
   return (
 <div className='max-h-full md:h-[100vh] w-full p-20'>
 
-<div className='flex max-h-full md:h-full w-full bg-secondary rounded-4xl justify-center items-center gap-10 mt-6 px-6'>
-  <div className='w-[50%] p-10 justify-center items-center '>
+<div className='  md:flex max-h-full md:h-full w-full bg-chart-3 rounded-4xl justify-center items-center gap-10 mt-8 px-6'>
+  <div className='md:w-[50%] p-10 justify-center items-center '>
 <HomeDetail/>
   </div>
-  <div className='w-[50%]'>
+  <div className='md:w-[50%]'>
 <img src={`${images.coffe}`} className='object-contain w-full' />
 
   </div>
