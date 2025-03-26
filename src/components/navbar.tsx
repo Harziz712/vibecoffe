@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="w-full fixed  top-0 left-0 z-50  backdrop-blur-md shadow-md">
       <div className="flex justify-between items-center py-3 md:py-4 px-14 ">
-<Logo/>
+  <Logo className='md:scale-[1.5] brightness-[80]'/>
 {/* Desktop */}
         <div className="hidden md:flex justify-between items-center gap-20 md:w-[50%]">
           <NavLinks />
