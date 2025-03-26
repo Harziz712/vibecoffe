@@ -2,6 +2,8 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 
 :root {
   --radius: 0.625rem;
@@ -84,5 +86,6 @@
   body {
     background-color: var(--background);
     color: var(--foreground);
+    font-family: 'Playfair Display', serif;
   }
 }

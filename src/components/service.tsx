@@ -2,7 +2,7 @@ import { ImageStack, ServiceDetail } from "./ui/ui"
 
 const Service = () => {
   return (
-    <div className="justify-center items-center w-full text-center my-20 py-20  "> 
+    <div id="services" className="justify-center items-center w-full text-center my-20 py-20  "> 
         <p className="uppercase">Features</p>
            <h2 className="text-[30px] leading-18 font-bold text-accent-foreground uppercase">
                Our Services
