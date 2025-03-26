@@ -12,7 +12,7 @@ const Navbar = () => {
 {/* Desktop */}
         <div className="hidden md:flex justify-between items-center gap-20 md:w-[50%]">
           <NavLinks />
-          <Button className={"hidden md:flex px-6 py-3 font-bold text-sm rounded-2xl"}>Order now !</Button>
+          <Button className={"hidden md:flex px-6 py-3 font-bold text-sm rounded-2xl"} data-aos="fade-left">Order now !</Button>
         </div>
 {/* Mobile */}
         <div className="md:hidden z-100 relative text-accent ">
@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className='m-10'><Logo/></div>
               <div className="flex flex-col items-center gap-4 mt-6 px-10">
                 <NavLinks />
-                <Button className="w-full py-3 rounded">Order now !</Button>
+                <Button className="w-full py-3 rounded" data-aos="fade-left" >Order now !</Button>
                 </div>
               </div>
             </SheetContent>
