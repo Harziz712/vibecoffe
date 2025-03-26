@@ -47,7 +47,7 @@ export const HomeDetail = () =>{
             </h2>
             <p className="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni corporis quae, at fuga doloribus dolores a blanditiis quasi est, architecto repellendus incidunt nihil, nam rem amet? Nam atque dolorum fugiat.</p>
             <Button className="text-1xl font-medium rounded-2xl p-5 font-bold">Buy now!</Button>
-        </div>
+    </div>
     )
 }
 
@@ -69,7 +69,8 @@ export const ImageStack = () =>{
     return (
         <div className=" text-muted-foreground -right-20  md:-right-0 space-y-5 px-20 relative">
           <img src={images.coffebar1} className="h-[200px] w-[200px]  rounded-2xl `backdrop-blur-md shadow-md shadow-accent z-10 absolute -top-50 md:-left-22  -left-15 object-cover "/>
-          <img src={images.coffee}  className="md:h-[300px] h-[250px] object-cover md:w-[300px] w-[250px] rounded-2xl `backdrop-blur-md shadow-md shadow-accent absolute -top-10 left-6 md:left-0"/>
+          <img src={images.coffebg} className="md:h-[500px]  md:w-full z-1 absolute md:-top-56 -top-70 md:-left-22  -left-34 object-cover "/>
+          <img src={images.coffee}  className="md:h-[300px] h-[250px] object-cover md:w-[300px] w-[250px] rounded-2xl z-5 backdrop-blur-md shadow-md shadow-accent absolute -top-10 left-6 md:left-0"/>
         </div>
     )
 }
@@ -93,6 +94,6 @@ export const ServiceDetail = () => {
 export const Logo = () => {
     return (
         // <h2 className='md:w-[30%]'>LOGO.</h2>
-        <img src=" " alt="LOGO."/>
+        <img src={images.logo}  className="h-15 w-20" alt="LOGO."/>
     )
 }
