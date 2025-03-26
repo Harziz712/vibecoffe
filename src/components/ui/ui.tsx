@@ -68,8 +68,8 @@ export const AboutDetail = () =>{
 export const ImageStack = () =>{
     return (
         <div className=" text-muted-foreground -right-20  md:-right-0 space-y-5 px-20 relative">
-          <img src={images.coffebar1} className="h-[200px] w-[200px] rounded-2xl `backdrop-blur-md shadow-md shadow-accent z-10 absolute -top-50 -left-22 object-cover"/>
-          <img src={images.coffee}  className="md:h-[300px] h-[250px] object-cover md:w-[300px] w-[250px] rounded-2xl `backdrop-blur-md shadow-md shadow-accent absolute -top-10"/>
+          <img src={images.coffebar1} className="h-[200px] w-[200px]  rounded-2xl `backdrop-blur-md shadow-md shadow-accent z-10 absolute -top-50 md:-left-22  -left-15 object-cover "/>
+          <img src={images.coffee}  className="md:h-[300px] h-[250px] object-cover md:w-[300px] w-[250px] rounded-2xl `backdrop-blur-md shadow-md shadow-accent absolute -top-10 left-6 md:left-0"/>
         </div>
     )
 }
